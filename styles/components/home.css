@@ -79,3 +79,8 @@
     margin: 4rem 0 0 0;
   }
 }
+@media (min-width:425px){
+  .home__img img{
+    width: 23rem;
+}
+}
