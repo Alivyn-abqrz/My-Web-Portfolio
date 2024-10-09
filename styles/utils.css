@@ -23,29 +23,21 @@
 
 }  */
 .btn{
-  background-color: var(--clr-green); /* Primary color */
-  color: var(--clr-dark);
+  background-color: transparent; /* Primary color */
+  color: var(--clr-green);
   text-decoration: none;
-  font-weight: bold;
   text-align: center;
   display: inline-block;
-  padding: 0 1rem 0 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   font-size: 1rem;
+  border: 2px solid var(--clr-light);
   border-radius: 5px; 
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(80, 200, 120, 0.8),0 0 10px rgba(80, 200, 120, 0.8),0 0 10px rgba(80, 200, 120, 0.8),0 0 20px rgba(80, 200, 120, 0.8);
-  margin-left: 5rem;
 }
 .btn:hover {
   color: var(--clr-light);
-  background-color: var(--clr-green); /* Slightly darker shade of emerald green */
-  transform: scale(1.05);
+  background-color: var(--clr-green);
+  border-color: var(--clr-green);
 }
-.loading{
-  filter: blur(40px) grayscale(100%);
-  transition: 0.7s ease-in-out;
+section{
+  padding: 2rem 0;
 }
-.loaded{
-  filter: blur(0) grayscale(0);
-}
-

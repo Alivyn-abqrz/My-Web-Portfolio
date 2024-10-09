@@ -6,7 +6,6 @@
   --clr-slate800:#1e293b;
   --clr-darkgreen:#14532d;
   --clr-green:#50C878;
-  --clr-glowgreen:rgba(80, 200, 120, 0.8);
 
   /* dark green rgb(20, 83, 45)*/
   /*green rgb(80, 200, 120) */
@@ -37,14 +36,15 @@ body{
   font-family: 'General Sans', sans-serif;
   background-color: var(--clr-dark);
   color: var(--clr-light);
+  overflow-x: hidden;
 }
 .light-mode{
   --clr-light: #020617;
   --clr-dark:#f1f5f9;
   --clr-slate400:#1e293b;
   --clr-slate600:#1e293b;
-  --clr-slate800:#1e293b;
-  --clr-green:#14532d;
+  --clr-slate800:#94a3b8;
+  --clr-green:#14532d ;
 
 }
 button{

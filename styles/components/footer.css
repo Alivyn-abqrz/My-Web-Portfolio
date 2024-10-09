@@ -1,4 +1,4 @@
-.footer h3{
+footer p{
   font-size: var(--size-xs);
   font-weight: 400;
   color: var(--clr-slate400);
@@ -6,4 +6,10 @@
   text-transform: capitalize;
   letter-spacing: 0.2em;
   user-select: none;
+}
+.footer-line {
+  width: 100%;              /* Full width of the footer */
+  height: 1px;              /* Height of the line */
+  background-color:  var(--clr-slate400);   /* Color of the line */
+  margin: 20px 0;           /* Margin for spacing */
 }

@@ -10,7 +10,5 @@ import '../styles/utils.css';
 
 import NavMobile from './utils/mobile';
 import darkMode from './utils/dark-mode';
-import lazyloading from './utils/lazy-loading';
-NavMobile();
-darkMode();
-lazyloading();
+    NavMobile();
+    darkMode();

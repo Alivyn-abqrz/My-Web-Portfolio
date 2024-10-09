@@ -15,7 +15,7 @@ const navMobile = () => {
       document.body.style.overflowY = 'auto';
     }
   });
-  linkMobile.forEach(link=> {
+  linkMobile.forEach(link => {
     link.addEventListener('click', () => {
       mobileNavOpen = false;
       navMobile.style.display = 'none';

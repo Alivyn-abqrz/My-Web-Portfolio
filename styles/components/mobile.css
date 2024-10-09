@@ -28,7 +28,6 @@
 }
 .mobile__link:hover, .mobile__sun:hover{
   color:var(--clr-light) ;
-  text-shadow: 0 0 10px rgba(80, 200, 120, 0.8),0 0 10px rgba(80, 200, 120, 0.8),0 0 10px rgba(80, 200, 120, 0.8),0 0 20px rgba(80, 200, 120, 0.8) ; 
 }
 .mobile__line{
  border: 1px solid var(--clr-slate400);
@@ -42,4 +41,13 @@
 }
 .mobile__btn{
   font-size: var(--size-sm);
+  
+}
+@media (min-width:320px) and (max-width:767px) {
+  .header__sun{
+   position: absolute;
+   top: 2.2rem;
+   right: 4rem;
+  }
+
 }
