@@ -81,7 +81,6 @@
   font-size:var( --size-xs) ;
 }
 .social__media {
-  margin:0 1rem;
   font-size: var(--size-sm);
 }
 .download-cv{
