@@ -81,11 +81,12 @@
   font-size:var( --size-xs) ;
 }
 .social__media {
-  margin-left:1rem ;
+  margin:0 1rem;
   font-size: var(--size-sm);
 }
 .download-cv{
-  margin-left: 3rem;
+    display: flex;
+    justify-content: center;
 }
 }
 @media (min-width:375px){
@@ -93,15 +94,11 @@
   width: 16rem;
   
 }
-
 .home__content p{
   font-size:var( --size-xs) ;
 }
 .social__media {
- margin-left: 2.5rem;
-}
-.download-cv{
-  margin-left: 5rem;
+ margin-left: 0;
 }
 }
 @media (min-width:425px){
@@ -113,10 +110,7 @@
     margin: 0 1rem;
   }
   .social__media {
-    margin-left:5rem;
-   }
-   .download-cv{
-     margin-left: 7.5rem;
+    margin-left:0;
    }
 }
 @media (min-width:768px){
@@ -124,11 +118,10 @@
     font-size:var( --size-base) ;
   }
   .social__media {
-    margin:0 14rem;
     font-size: var(--size-lg);
   }
   .download-cv{
-    margin-left: 16rem;
+    margin-left: 1rem;
   }
 }
 @media (min-width:1024px){
