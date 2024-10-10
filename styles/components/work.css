@@ -81,6 +81,12 @@
 .swiper-pagination-bullet-active{
   background-color: var(--clr-green);
 }
+.card__container h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--size-base);
+}
 @media  screen and (max-width:320px) {
   .card__data{
     padding: 1rem;
@@ -98,5 +104,8 @@
 @media  screen and (min-width:1024px){
   .card__container{
     max-width: 1120px;
+  }
+  .card__container h2{
+    font-size: var(--size-xl);
   }
 }
