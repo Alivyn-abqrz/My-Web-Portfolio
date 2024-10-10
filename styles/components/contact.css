@@ -19,7 +19,6 @@
   max-width: 60ch;
 }
 .contact__btn {
-  background-color: var(--clr-green); /* Primary color */
   background-color: transparent; /* Primary color */
   color: var(--clr-green);
   text-decoration: none;
@@ -28,7 +27,7 @@
   padding: 0.5rem 1rem 0.5rem 1rem;
   font-size: 1rem;
   border: 2px solid var(--clr-light);
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 .contact__btn:hover {
   color: var(--clr-light);
