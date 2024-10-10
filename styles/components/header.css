@@ -67,6 +67,9 @@
       border: 0 0 2px 0 solid var(--clr-green);
       transform: scale(1.05);
     }
+    .header__link:hover,.header__sun:hover {
+      color: var(--clr-green);
+    }
     .header__line{
       border: 1px solid var(--clr-slate400);
       padding-top:1.5em ;

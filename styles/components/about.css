@@ -79,7 +79,7 @@
   font-size: var(--size-2xl);
 }
 .about__description{
-  font-size: var(--size-base);
+  font-size: var(--size-xs);
 }
 .about__subtitle{
   font-size:var(--size-base);
@@ -102,6 +102,9 @@
     margin: 0 auto;
   }
   .about__ul-container{
+    font-size: var(--size-base);
+  }
+  .about__description{
     font-size: var(--size-base);
   }
 }

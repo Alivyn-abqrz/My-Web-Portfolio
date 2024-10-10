@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="styles/components/swiper-bundle.min.css" type="Swiper-css"> -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     <meta name="description" content="My portfolio websiote">
     <meta name="keyword" content="Web design, html , css , javascript, Alvin Abarquez">
     <title>Portfolio Website</title>
@@ -95,8 +100,106 @@
                 </div>
       </section>
       <!-- end of About section -->
-    <!-- <section id="work">
-    </section> -->
+    <section  class="work__container" id="work">
+      <div class="card__container swiper">
+        <div class="card__content">
+           <div class="swiper-wrapper">
+              <article class="card__article swiper-slide">
+                 <div class="card__image">
+                    <img src="/logo.png" alt="image" class="card__img">
+                 </div>
+  
+                 <div class="card__data">
+                    <h3 class="card__name">Website title #1</h3>
+                    <p class="card__description">
+                       Passionate about development and design, 
+                       I carry out projects at the request of users.
+                    </p>
+  
+                    <a href="#" class="card__button">View More</a>
+                 </div>
+              </article>
+  
+              <article class="card__article swiper-slide">
+                 <div class="card__image">
+                    <img src="/logo.png" alt="image" class="card__img">
+                 </div>
+  
+                 <div class="card__data">
+                    <h3 class="card__name">Website title #2</h3>
+                    <p class="card__description">
+                       Passionate about development and design, 
+                       I carry out projects at the request of users.
+                    </p>
+  
+                    <a href="#" class="card__button">View More</a>
+                 </div>
+              </article>
+  
+              <article class="card__article swiper-slide">
+                 <div class="card__image">
+                    <img src="/logo.png" alt="image" class="card__img">
+                 </div>
+  
+                 <div class="card__data">
+                    <h3 class="card__name">Website title #3</h3>
+                    <p class="card__description">
+                       Passionate about development and design, 
+                       I carry out projects at the request of users.
+                    </p>
+  
+                    <a href="#" class="card__button">View More</a>
+                 </div>
+              </article>
+  
+              <article class="card__article swiper-slide">
+                 <div class="card__image">
+                    <img src="/logo.png" alt="image" class="card__img">
+                 </div>
+  
+                 <div class="card__data">
+                    <h3 class="card__name">Website title #4</h3>
+                    <p class="card__description">
+                       Passionate about development and design, 
+                       I carry out projects at the request of users.
+                    </p>
+  
+                    <a href="#" class="card__button">View More</a>
+                 </div>
+              </article>
+
+              <article class="card__article swiper-slide">
+                 <div class="card__image">
+                    <img src="/logo.png" alt="image" class="card__img">
+                 </div>
+  
+                 <div class="card__data">
+                    <h3 class="card__name">Website title #5</h3>
+                    <p class="card__description">
+                       Passionate about development and design, 
+                       I carry out projects at the request of users.
+                    </p>
+  
+                    <a href="#" class="card__button">View More</a>
+                 </div>
+              </article>
+           </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="swiper-button-next">
+          <i class="fa-solid fa-greater-than"></i>
+        </div>
+        
+        <div class="swiper-button-prev">
+          <i class="fa-solid fa-less-than"></i>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+     </div>
+ 
+    </section>
       <!-- Contact Section -->
         <section class="contact container section" id="contact"> 
               <h2>Get In Contact</h2>
@@ -113,14 +216,15 @@
   </footer>
    <!-- End Of Footer -->
    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./src/main.js"></script>
     <script>
       var typed = new Typed(".auto-type",{
-        strings : ["Alvin Abarquez", "Web developer"],
-        typeSpeed: 150,
-        backSpeed: 150,
-        loop: true
-      })
+      strings : ["Alvin Abarquez", "Web developer"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true
+    });
     </script>
   </body>
 </html>

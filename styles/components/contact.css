@@ -1,3 +1,6 @@
+#contact{
+  background-color: var(--clr-slate800);
+}
 .contact{
   display: flex;
   flex-direction: column;
