@@ -25,7 +25,6 @@
   color: var(--clr-slate400);
 }
 .home__img{
-  position: relative;
   width: 30rem;
   margin-top: 4.5rem;
   overflow: hidden;
