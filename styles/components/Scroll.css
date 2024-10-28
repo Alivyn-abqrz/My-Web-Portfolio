@@ -1,0 +1,15 @@
+.hidden{
+opacity:0 ;
+filter: blur(5px);
+transform: translate(-100%);
+transition: all 1.5s;
+
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.home__img{
+ transition-delay:200ms ;
+}

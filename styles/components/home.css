@@ -25,8 +25,10 @@
   color: var(--clr-slate400);
 }
 .home__img{
-  margin-top: 4.5rem;
+  position: relative;
   width: 30rem;
+  margin-top: 4.5rem;
+  overflow: hidden;
   border-radius:2.5rem ;
   border:3.5px solid var(--clr-green);
 }

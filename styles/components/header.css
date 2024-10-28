@@ -58,6 +58,7 @@
       font-size: var(--size-xs);
       text-decoration: none;
       font-weight: 600;
+      padding-bottom:0.5rem ;
       color: var(--clr-slate400);
       letter-spacing: -0.05em;
       transition: color 0.3s;
@@ -66,6 +67,7 @@
       color: var(--clr-light);
       border: 0 0 2px 0 solid var(--clr-green);
       transform: scale(1.05);
+      border-bottom: solid 2px var(--clr-green);
     }
     .header__link:hover,.header__sun:hover {
       color: var(--clr-green);
@@ -80,6 +82,7 @@
       color: var(--clr-slate400);
       width: var(--size-base);
       height: var(--size-base);
+      padding-bottom:0.5rem ;
     }
 
 /*  lg */

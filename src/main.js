@@ -9,14 +9,18 @@ import  '../styles/components/mobile.css';
 import '../styles/utils.css';
 import '../styles/components/work.css';
 import '../styles/components/loading.css'
+import '../styles/components/Scroll.css'
 
 import NavMobile from './utils/mobile';
 import darkMode from './utils/dark-mode';
 // import autotyped from './utils/auto-type';
 import CardsSwift from './utils/card-swift';
 import loader from './utils/loading';
+import scrollanimation from './utils/scroll';
+   
     NavMobile();
     darkMode();
     CardsSwift();
     loader();
+    scrollanimation();
     // autotyped();

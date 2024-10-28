@@ -30,6 +30,7 @@
 }
 .card__img{
   width: 180px;
+  margin-left: 4rem;
   position: relative;
   z-index: 5;
 }
