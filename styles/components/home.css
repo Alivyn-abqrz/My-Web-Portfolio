@@ -38,12 +38,19 @@
 .home__content p{
     font-size: var(--size-md);
 }
+.social__media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem 0;
+}
 .social__media i{
   display: inline-flex;
   justify-content:center ;
   align-items: center;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem ;
   background: transparent;
   text-decoration: none;
   transition: .3s ease-in-out;
@@ -81,7 +88,7 @@
 .home__content p{
   font-size:var( --size-xs) ;
 }
-.social__media {
+.social__media i{
   font-size: var(--size-sm);
 }
 .download-cv{
