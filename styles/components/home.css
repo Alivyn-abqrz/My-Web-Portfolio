@@ -50,7 +50,7 @@
 }
 .social__media i:hover{
   color: var(--clr-light);
-  font-size: var(--size-2xl);
+  transform: scale(1.1);
 }
 
 @media (min-width:320px){

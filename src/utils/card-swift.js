@@ -21,6 +21,9 @@ let swiperCards = new Swiper('.card__content', {
     },
     968:{
       slidesPerView:3,
+    },
+    1100:{
+      slidesPerView:3,
     }
   }
 

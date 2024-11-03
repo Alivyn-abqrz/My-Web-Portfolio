@@ -22,6 +22,7 @@
     <header class="header container">
       <nav>
           <ul class="header__menu">
+               <li><a class="header__link" href="#home">Home</a></li>
                 <li><a class="header__link" href="#about">About</a></li>
                 <li><a class="header__link" href="#work">Work</a></li>
                 <li><a class="header__link" href="#contact">Contanct</a></li>
@@ -73,7 +74,7 @@
                 </div>
         </div>
                     <div class="home__img hidden">
-                        <img src="./public/profile.png" alt="Profile">
+                        <img src="/profile.png" alt="Profile">
                     </div>
     </section>
     <!-- End of Home Section -->
@@ -110,23 +111,25 @@
            <div class="swiper-wrapper ">
               <article class="card__article swiper-slide ">
                  <div class="card__image">
-                    <img src="/logo.png" alt="image" class="card__img">
+                    <img src="/AbarqDigital.png" alt="image" class="card__img">
                  </div>
   
                  <div class="card__data">
-                    <h3 class="card__name">Website title #1</h3>
+                    <h3 class="card__name">Abarq Digital</h3>
                     <p class="card__description">
-                       Passionate about development and design, 
-                       I carry out projects at the request of users.
+                     Abarq Digital is a trusted repair service dedicated to fixing and restoring electronic devices.
                     </p>
-  
-                    <a href="#" class="card__button">View More</a>
+                    <div class="card__lang">
+                     <img src="/react.png" alt="image" class="img__lang">
+                     <img src="/tailwind-css.png" alt="image"  class="img__lang" >
+                    </div>
+                    <a href="https://abarq-digital.vercel.app/" class="card__button">View More</a>
                  </div>
               </article>
   
               <article class="card__article swiper-slide">
                  <div class="card__image">
-                    <img src="/logo.png" alt="image" class="card__img">
+                    <img src="/portfolio.png" alt="image" class="card__img">
                  </div>
   
                  <div class="card__data">
@@ -135,15 +138,18 @@
                        Passionate about development and design, 
                        I carry out projects at the request of users.
                     </p>
-  
+                    <div class="card__lang">
+                     <img src="/react.png" alt="image" class="img__lang">
+                     <img src="/tailwind-css.png" alt="image"  class="img__lang" >
+                    </div>
                     <a href="#" class="card__button">View More</a>
                  </div>
               </article>
   
               <article class="card__article swiper-slide">
-                 <div class="card__image">
-                    <img src="/logo.png" alt="image" class="card__img">
-                 </div>
+               <div class="card__image">
+                  <img src="/portfolio.png" alt="image" class="card__img">
+               </div>
   
                  <div class="card__data">
                     <h3 class="card__name">Website title #3</h3>
@@ -151,15 +157,18 @@
                        Passionate about development and design, 
                        I carry out projects at the request of users.
                     </p>
-  
+                    <div class="card__lang">
+                     <img src="/react.png" alt="image" class="img__lang">
+                     <img src="/tailwind-css.png" alt="image"  class="img__lang" >
+                    </div>
                     <a href="#" class="card__button">View More</a>
                  </div>
               </article>
   
               <article class="card__article swiper-slide">
-                 <div class="card__image">
-                    <img src="/logo.png" alt="image" class="card__img">
-                 </div>
+               <div class="card__image">
+                  <img src="/portfolio.png" alt="image" class="card__img">
+               </div>
   
                  <div class="card__data">
                     <h3 class="card__name">Website title #4</h3>
@@ -167,15 +176,18 @@
                        Passionate about development and design, 
                        I carry out projects at the request of users.
                     </p>
-  
+                    <div class="card__lang">
+                     <img src="/react.png" alt="image" class="img__lang">
+                     <img src="/tailwind-css.png" alt="image"  class="img__lang" >
+                    </div>
                     <a href="#" class="card__button">View More</a>
                  </div>
               </article>
 
               <article class="card__article swiper-slide">
-                 <div class="card__image">
-                    <img src="/logo.png" alt="image" class="card__img">
-                 </div>
+               <div class="card__image">
+                  <img src="/portfolio.png" alt="image" class="card__img">
+               </div>
   
                  <div class="card__data">
                     <h3 class="card__name">Website title #5</h3>
@@ -183,7 +195,10 @@
                        Passionate about development and design, 
                        I carry out projects at the request of users.
                     </p>
-  
+                    <div class="card__lang">
+                     <img src="/react.png" alt="image" class="img__lang">
+                     <img src="/tailwind-css.png" alt="image"  class="img__lang" >
+                    </div>
                     <a href="#" class="card__button">View More</a>
                  </div>
               </article>
@@ -205,20 +220,61 @@
  
     </section>
       <!-- Contact Section -->
-        <section class="contact container section" id="contact"> 
-              <h2 class="hidden">Get In Contact</h2>
-              <p class="hidden">Reach out if you need a passionate front-end developer ready to innovate.</p>
-              <a class="contact__btn hidden" href="mailto:abarquezalvin10@gmail.com" target="_blank">Reach Out</a>
-        </section>
+      <!-- Contact Section -->
+<section class="contact container section" id="contact"> 
+   <h2 class="hidden">Get In Touch</h2>
+   <p class="hidden">Feel free to reach out if you need a passionate front-end developer ready to innovate.</p>
+   <form class="contact__form hidden">
+       <div class="form__group">
+           <label for="name">Name</label>
+           <input type="text" id="name" name="name" required>
+       </div>
+       <div class="form__group">
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email" required>
+       </div>
+       <div class="form__group">
+           <label for="message">Message</label>
+           <textarea id="message" name="message" rows="5" required></textarea>
+       </div>
+       <button type="submit" class="btn">Send Message</button>
+   </form>
+</section>
+<!-- End of Contact Section -->
+
         <!-- end of contact section -->
     </main>
-    <!-- Footer -->
+    <!-- start of footer -->
+   <!-- Start of Footer -->
+<footer class="footer container">
+   <div class="footer__links">
+       <nav>
+           <ul class="footer__menu">
+               <li><a class="footer__link" href="#home">Home</a></li>
+               <li><a class="footer__link" href="#about">About</a></li>
+               <li><a class="footer__link" href="#work">Work</a></li>
+               <li><a class="footer__link" href="#contact">Contact</a></li>
+           </ul>
+       </nav>
+   </div>
+   <div class="footer__social">
+       <h3>Follow Me:</h3>
+       <div class="social__media">
+           <a href="https://www.facebook.com/profile.php?id=100085749714163&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+           <a href="https://www.instagram.com/ali_vyn/"><i class="fa-brands fa-instagram"></i></a>
+           <a href="mailto:abarquezalvin10@gmail.com"><i class="fa-brands fa-google"></i></a>
+           <a href="https://github.com/Alivyn-abqrz"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.threads.net/@ali_vyn"><i class="fa-brands fa-threads"></i></a>
+       </div>
+   </div>
+   <p>&copy; 2024 Alvin Abarquez. All rights reserved.</p>
+</footer>
+<!-- End of Footer -->
 
-    <footer>
-      <div class="footer-line"></div>
-      <p>&copy; <span id="year">2024</span> Ali_vyn. All rights reserved.</p>
-  </footer>
-   <!-- End Of Footer -->
+    <!-- End of Footer -->
+    
+    <!-- End of Footer -->
+    
    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./src/main.js"></script>
