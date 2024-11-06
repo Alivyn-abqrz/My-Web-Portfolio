@@ -102,7 +102,7 @@
   
 }
 .home__content p{
-  font-size:var( --size-xs) ;
+  font-size:1rem ;
 }
 .social__media {
  margin-left: 0;

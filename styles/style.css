@@ -44,7 +44,7 @@ body{
   --clr-slate400:#1e293b;
   --clr-slate600:#1e293b;
   --clr-slate800:#94a3b8;
-  --clr-green:#15803d ;
+  --clr-green:#14532d;
 
 }
 button{
@@ -96,6 +96,10 @@ body::-webkit-scrollbar-thumb {
 }
  .section{
   margin-top: 5rem;
+
+ }
+ .background{
+  background-color: var(--clr-slate800);
 
  }
   /*  xs */

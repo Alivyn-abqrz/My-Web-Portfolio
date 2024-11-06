@@ -1,5 +1,4 @@
 #about{
-  background-color: var(--clr-slate800);
   width: 100vw;
 }
 .about{
@@ -63,13 +62,13 @@
     margin: 0 2rem;
   }
   .about__description{
-    font-size: var(--size-xs);
+    font-size: 1rem;
   }
   .about__title{
     font-size: var(--size-xl);
   }
   .about__ul-container{
-    font-size: var(--size-xs);
+    font-size: 1rem;
   }
 }
   /* xs */
