@@ -50,7 +50,7 @@
   border:3.5px solid var(--clr-green);
 }
 
-@media (min-width:320px), (min-width:375px){
+@media (min-width:320px){
   .about__img{
     margin-top: 2rem;
     width: 18rem;
@@ -62,7 +62,7 @@
     margin: 0 2rem;
   }
   .about__description{
-    font-size: 1rem;
+    font-size: var(--size-base);
   }
   .about__title{
     font-size: var(--size-xl);
@@ -78,7 +78,7 @@
   font-size: var(--size-2xl);
 }
 .about__description{
-  font-size: var(--size-xs);
+  font-size: var(--size-base);
 }
 .about__subtitle{
   font-size:var(--size-base);

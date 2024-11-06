@@ -10,6 +10,8 @@
 }
 
 .contact p {
+  font-size: var(--size-base);
+  color: var(--clr-slate400);
   margin-bottom: 1.25rem;
 }
 

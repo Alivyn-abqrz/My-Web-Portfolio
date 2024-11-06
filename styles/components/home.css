@@ -36,7 +36,7 @@
   color: var(--clr-green);
 }
 .home__content p{
-    font-size: var(--size-md);
+    font-size: var(--size-base);
 }
 .social__media{
   display: flex;
@@ -69,7 +69,7 @@
     margin: 0 2rem;
   }
   .hero__disciption{
-    font-size: var(--size-sm);
+    font-size: var(--size-base);
     margin:0 1rem 0 1rem;
 }
 .home__content h3{
@@ -86,14 +86,15 @@
 }
 
 .home__content p{
-  font-size:var( --size-xs) ;
+  font-size:var( --size-base) ;
 }
 .social__media i{
-  font-size: var(--size-sm);
+  font-size: var(--size-base);
 }
 .download-cv{
     display: flex;
     justify-content: center;
+    margin: 0 3rem;
 }
 }
 @media (min-width:375px){
@@ -101,9 +102,7 @@
   width: 16rem;
   
 }
-.home__content p{
-  font-size:1rem ;
-}
+
 .social__media {
  margin-left: 0;
 }
@@ -124,9 +123,7 @@
   .home__content p{
     font-size:var( --size-base) ;
   }
-  .social__media {
-    font-size: var(--size-lg);
-  }
+ 
   .download-cv{
     margin-left: 1rem;
   }
