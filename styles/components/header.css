@@ -39,9 +39,11 @@
 }
 
 /*  xs */
-/* @media (min-width:475px){
-
-} */
+@media (min-width:475px){
+.header__logo{
+  width: var(--size-2xl);
+}
+}
 /*  sm */
 /* @media (min-width:640px){
 
@@ -63,7 +65,7 @@
       letter-spacing: -0.05em;
       transition: color 0.3s;
     }
-    .header__link:hover,.header__sun:hover {
+    .header__link:hover {
       color: var(--clr-light);
       border: 0 0 2px 0 solid var(--clr-green);
       transform: scale(1.05);
@@ -80,8 +82,8 @@
     .header__sun{
       display: block;
       color: var(--clr-slate400);
-      width: var(--size-base);
-      height: var(--size-base);
+      width: var(--size-xl);
+      height: var(--size-xl);
     }
 
 /*  lg */
@@ -98,9 +100,6 @@
 @media(min-width:768px){
   .header__bars{
     display: none;
-  }
-  .header__logo{
-    font-size: var(--size-sm);
   }
 }
 
